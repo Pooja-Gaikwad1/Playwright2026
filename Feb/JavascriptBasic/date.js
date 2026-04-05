@@ -1,0 +1,15 @@
+let d = new Date()
+console.log(d)
+
+console.log('Hello world')
+
+console.log(d.getDate())
+console.log(d.getDate()+2)
+console.log(d.getDate()-1)
+console.log(d.getMonth())
+console.log(d.getMonth()+1)
+console.log(d.getFullYear())
+console.log(d.getHours())
+console.log(d.getMinutes())
+console.log(d.toLocaleDateString())
+console.log(d.toLocaleTimeString())
